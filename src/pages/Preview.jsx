@@ -10,7 +10,7 @@ export function Preview(){
     <>
         <div className="relative h-screen w-full overflow-hidden shadow-2xl">
             <video className="absolute w-full h-screen top-0 left-0 object-cover" autoPlay muted loop playsInline>
-                <source src="/public/videos/youtube_lMXh6vjiZrI_1280x720_h264.mp4"></source>
+                <source src="/videos/youtube_lMXh6vjiZrI_1280x720_h264.mp4"></source>
             </video>
            
             <div className="absolute top-0 left-0 h-screen w-full bg-gradient-to-tr from-black via-black/80 to-transparent z-10  "></div>
@@ -37,7 +37,7 @@ export function Preview(){
         </div>
         <div className="w-full md:h-[90vh] lg:h-[80vh] bg-black p-8 px-8 flex gap-6">
             <div className="w-[10%]">
-                <img src="/public/cartoon/mufasa.jpg" className="" alt="" srcset="" />
+                <img src="/cartoon/mufasa.jpg" className="" alt="" srcset="" />
             </div>
             <div className="w-[90%]">
                 <p className="text-white text-2xl font-bold">Mufasa: The Lion King (2024)</p>
@@ -56,55 +56,55 @@ export function Preview(){
                 
                 <div className="flex gap-4 w-full grid-cols-9 mb-12">
                     <div className="w-[80px]">
-                        <img src="/public/cast/blue.jpeg"  className="w-full" alt=""/>
+                        <img src="cast/blue.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Blue Ivy Carter</p>
                         <p className="text-white">Kiara</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/piere.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/piere.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Aaron Pierre</p>
                         <p className="text-white">Mufasa</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/sarabi.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/sarabi.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Tiffany Boone</p>
                         <p className="text-white">Sarabi</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/simba.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/simba.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Donald Glover</p>
                         <p className="text-white">Simba</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/nala.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/nala.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Beyoncé</p>
                         <p className="text-white">Nala</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/john.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/john.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">John Kani</p>
                         <p className="text-white">Rafiki</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/mads.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/mads.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Mads Mikkelsen</p>
                         <p className="text-white">Kiros</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/timon.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/timon.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Billy Eichner</p>
                         <p className="text-white">Timon</p>
 
                     </div>
                     <div className="w-[80px]">
-                        <img src="/public/cast/scar.jpeg"  className="w-full" alt=""/>
+                        <img src="/cast/scar.jpeg"  className="w-full" alt=""/>
                         <p className="text-white w-full mb-1">Kelvin Harrison Jr.</p>
                         <p className="text-white">Scar</p>
 

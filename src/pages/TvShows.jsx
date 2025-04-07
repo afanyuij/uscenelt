@@ -13,7 +13,7 @@ export function TvShows(){
                     
                     {movies.map((movie)=>(
                         <div key={movie} className=" hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/drama/adole.jpg" alt="movie" className=""/>
+                            <img src="/drama/adole.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -21,7 +21,7 @@ export function TvShows(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/drama/artworks-W8KXhQeXZrv2YSJO-ctOyHA-t500x500.jpg" alt="movie" className=""/>
+                            <img src="/drama/artworks-W8KXhQeXZrv2YSJO-ctOyHA-t500x500.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -29,7 +29,7 @@ export function TvShows(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/drama/dare.jpg" alt="movie" className=""/>
+                            <img src="/drama/dare.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -37,7 +37,7 @@ export function TvShows(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/drama/pitt.jpg" alt="movie" className=""/>
+                            <img src="/drama/pitt.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -45,7 +45,7 @@ export function TvShows(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/drama/white.jpg" alt="movie" className=""/>
+                            <img src="/drama/white.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>

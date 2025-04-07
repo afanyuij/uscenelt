@@ -6,7 +6,7 @@ export function Navbar(){
             <nav className="flex fixed top-0 left-0 z-50 shadow-2xl  justify-between p-2 px-4 md:px-8 w-full bg-gradient-to-b from-black/90 via-gray-950 to-gray-900">
                 <div className="flex gap-4">
                     <div className="logo flex gap-12 items-center">
-                        <img src="/public/logo/logo.png" className="w-[100px]" alt="" srcset="" />
+                        <img src="/logo/logo.png" className="w-[100px]" alt="" srcset="" />
                         <div className="flex gap-5 text-white pop">
                             <a href="/" className="text-white">Home</a>
                             <a href="/allmovies" className="text-white">All Movies</a>
@@ -24,7 +24,7 @@ export function Navbar(){
                   <BellDot color="#fffafa" strokeWidth={1.5} />
                    
 
-                    <img src="/public/account/account-img.jpg" className="w-[30px] h-[34px] rounded-4xl" alt=""/>
+                    <img src="/account/account-img.jpg" className="w-[30px] h-[34px] rounded-4xl" alt=""/>
             
                     </div>  
 

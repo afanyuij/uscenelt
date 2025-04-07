@@ -7,7 +7,7 @@ export function Home(){
         // {
         //   title: "Back in Action",
         //   description: "Fifteen years after vanishing from the CIA to start a family, elite spies Matt and Emily jump back into the world of espionage when their cover is blown.",
-        //   image: "/public/movie/backinaction.jpg",
+        //   image: "/movie/backinaction.jpg",
         // }
         0,1,2,3
       ];
@@ -21,7 +21,7 @@ export function Home(){
             
             <div className="w-[60%] h-full lg:mt-42 md:mt-24 px-14 bg-gradient-to-r from-bl">
                 <div className="flex items-center mb-5">
-                <img src="/public/logo/logo.png" className="w-[80px] md:w-[60px]" alt=""  />
+                <img src="/logo/logo.png" className="w-[80px] md:w-[60px]" alt=""  />
                 <h1 className="text-2xl md:text-xl font-bold tracking-wider text-white ml-4 pop">MOVIES</h1>
                 </div>
 
@@ -48,7 +48,7 @@ export function Home(){
                         <a key={movie} href="/preview " className="w-[30%] bg-black hover:scale-[1.1] cursor-pointer transition duration-200 filter hover:grayscale ">
 
                         {/* <div key={movie} className="w-[30%] bg-black hover:scale-[1.1] cursor-pointer transition duration-200 filter hover:grayscale "> */}
-                            <img src="/public/movie/backinaction.jpg" alt="" className=" rounded-md" />
+                            <img src="/movie/backinaction.jpg" alt="" className=" rounded-md" />
                             
                         {/* </div> */}
                         </a>
@@ -58,7 +58,7 @@ export function Home(){
                 <div className="flex  gap-6 p-12 bg-gray-950 px-12 ">
                     {movies.map((movie) => (
                          <a key={movie} href="/preview " className="w-[30%] bg-black hover:scale-[1.1] cursor-pointer transition duration-200 filter hover:grayscale ">
-                            <img src="/public/movie/venom.jpg" alt="" className=" rounded-md w-full" />
+                            <img src="/movie/venom.jpg" alt="" className=" rounded-md w-full" />
                             
                         </a>
                     ))}
@@ -67,7 +67,7 @@ export function Home(){
                 <div className="flex  gap-6 p-12 bg-gray-950 px-12 ">
                     {movies.map((movie) => (
                          <a key={movie} href="/preview " className="w-[30%] bg-black hover:scale-[1.1] cursor-pointer transition duration-200 filter hover:grayscale ">
-                            <img src="/public/cartoon/Mufasa-wallpaper.jpg" alt="" className=" rounded-md w-full" />
+                            <img src="/cartoon/Mufasa-wallpaper.jpg" alt="" className=" rounded-md w-full" />
                             
                        </a>
                     ))}
@@ -76,7 +76,7 @@ export function Home(){
                 <div className="flex  gap-6 p-12 bg-gray-950 px-12 ">
                     {movies.map((movie) => (
                          <a key={movie} href="/preview " className="w-[30%] bg-black hover:scale-[1.1] cursor-pointer transition duration-200 filter hover:grayscale ">
-                            <img src="/public/cartoon/1a6bc9122478301.Y3JvcCw0NDg0LDM1MDcsMjMzLDA.jpg" alt="" className=" rounded-md w-full" />
+                            <img src="/cartoon/1a6bc9122478301.Y3JvcCw0NDg0LDM1MDcsMjMzLDA.jpg" alt="" className=" rounded-md w-full" />
                             
                        </a>
                     ))}

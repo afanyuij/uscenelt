@@ -6,7 +6,7 @@ export function Footer(){
         <>
     <div className="flex justify-around p-4 px-12  w-full">
         <div className="mt-12">
-            <img src="/public/logo/logo.png" className="mb-4" alt="" srcset="" />
+            <img src="/logo/logo.png" className="mb-4" alt="" srcset="" />
             <div className="flex gap-2">
            <button> <Instagram size={32} color="#fffafa" strokeWidth={2.75} /></button>
            <button><Facebook size={32} color="#fffafa" strokeWidth={2.75} /></button>

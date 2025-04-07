@@ -13,7 +13,7 @@ export function Cartoon(){
                     
                     {movies.map((movie)=>(
                         <div key={movie} className=" hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/cartoon/dogman.jpg" alt="movie" className=""/>
+                            <img src="/cartoon/dogman.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -21,7 +21,7 @@ export function Cartoon(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/cartoon/flow.jpg" alt="movie" className=""/>
+                            <img src="/cartoon/flow.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -29,7 +29,7 @@ export function Cartoon(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/cartoon/invisible.jpg" alt="movie" className=""/>
+                            <img src="/cartoon/invisible.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -37,7 +37,7 @@ export function Cartoon(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/cartoon/moana.jpg" alt="movie" className=""/>
+                            <img src="/cartoon/moana.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>
@@ -45,7 +45,7 @@ export function Cartoon(){
                 <div className="flex gap-6 grid-cols-4 px-6 bg-gray-950 py-5 justify-center">
                     {movies.map((movie)=>(
                         <div key={movie} className="hover:filter hover:grayscale hover:scale-[1.1] duration-300 rounded-md p-4 ">
-                            <img src="/public/cartoon/tangle.jpg" alt="movie" className=""/>
+                            <img src="/cartoon/tangle.jpg" alt="movie" className=""/>
                         </div>
                     ))}
                 </div>

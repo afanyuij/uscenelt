@@ -5,7 +5,7 @@ export function Video(){
             <Navbar/>
             
                 <video className="absolute left-0 top-0 object-cover h-full w-full" controls >
-                    <source src="/public/videos/youtube_lMXh6vjiZrI_1280x720_h264.mp4" type="" />
+                    <source src="/videos/youtube_lMXh6vjiZrI_1280x720_h264.mp4" type="" />
                 </video>
           
         </div>
