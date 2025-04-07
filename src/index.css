@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.pop{
+    font-family: 'Poppins',sans-serif;
+}
+.bg{
+    background: url("/public/back/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+body{
+    overflow-x: hidden;
+}
