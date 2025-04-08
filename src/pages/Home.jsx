@@ -32,10 +32,10 @@ export function Home(){
                     
 
                     <a href="/preview">
-                    <button className="pop p-2 bg-gray-200 rounded-md px-12 flex items-center gap-2"><Play className="" /> Play  </button> 
+                    <button className="pop p-2 bg-gray-200 rounded-md px-12 duration-200 cursor-pointer hover:scale-[1.1] flex items-center gap-2"><Play className="" /> Play  </button> 
                     </a>
                 
-                    <button className="pop p-2 bg-black rounded-md px-12 text-white flex gap-3"><Info color="#ffffff" strokeWidth={1} /> More Info</button>
+                    <button className="pop p-2 bg-black rounded-md px-12 text-white cursor-pointer duration-200 hover:scale-[1.1] flex gap-3"><Info color="#ffffff" strokeWidth={1} /> More Info</button>
                 </div>
             </div>
            
